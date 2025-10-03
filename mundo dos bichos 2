@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mundo dos Bichos</title>
+
+  <!-- Importando a fonte More Sugar -->
+  <link href="https://fonts.googleapis.com/css2?family=More+Sugar&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-family: 'More Sugar', cursive;
+      font-size: 49px;
+      text-transform: uppercase;
+    }
+
+    .intro {
+      margin: 30px auto;
+      max-width: 800px;
+      font-size: 1.2em;
+      color: #333;
+      padding: 0 20px;
+    }
+
+    nav {
+      margin-top: 40px;
+    }
+
+    nav a {
+      display: block;
+      margin: 10px auto;
+      max-width: 300px;
+      background-color: #ffffff;
+      padding: 15px;
+      text-decoration: none;
+      color: #4CAF50;
+      border: 2px solid #4CAF50;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #4CAF50;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mundo dos Bichos</h1>
+  </header>
+
+  <div class="intro">
+    <p>Aqui você vai encontrar fatos curiosos, divertidos e interessantes sobre o mundo animal — de pets a criaturas exóticas.</p>
+  </div>
+
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="animais-domesticos.html">Animais Domésticos</a>
+    <a href="animais-selvagens.html">Animais Selvagens</a>
+    <a href="animais-estranhos.html">Animais Estranhos e Raros</a>
+    <a href="comparacoes-rankings.html">Comparações e Rankings</a>
+    <a href="mitos-verdades.html">Mitos e Verdades</a>
+  </nav>
+
+</body>
+</html>
